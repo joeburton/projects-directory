@@ -1,5 +1,5 @@
 #Projects Directory
-Backbone, Node and MongoDB CRUD Application--
+Backbone, Node and MongoDB CRUD Application
 
 Hoset on Digital Ocean with dokku
 
