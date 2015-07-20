@@ -2,7 +2,7 @@
 Backbone, Node and MongoDB CRUD Application
 
 
-[http://projects.joe-burton.com/](Project Example)
+[http://projects.joe-burton.com](Project Directory)
 
 
 ```
