@@ -33,6 +33,9 @@ dokku plugins-install
 ```
 
 ```
+// Once the DigitalOcean dokku instance is setup ssh to the box create and associate a database
+
+
 // Create a database and associate it with app: dokku mongodb:create <app> <database>
 dokku mongodb:create projects projectsdb
 
