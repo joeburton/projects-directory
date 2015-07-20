@@ -1,11 +1,14 @@
-# projects-directory
+#Projects Directory
 Backbone, Node and MongoDB CRUD Application
 
-#Setup Dokku
+```
+// Setup Dokku
 git remote add dokku dokku@projects.joe-burton.com:projects
 git add .
 git commit -m "firtst commit"
 git push dokku master
+
+```
 
 --------------------------------------------------------------
 
