@@ -1,7 +1,9 @@
 #Projects Directory
 Backbone, Node and MongoDB CRUD Application
 
-~~http://projects.joe-burton.com/~~
+``
+http://projects.joe-burton.com/
+``
 
 ```
 // Setup Dokku
