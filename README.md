@@ -33,9 +33,6 @@ dokku plugins-install
 ```
 
 ```
-// Start MongoDD
-dokku mongodb:start
-
 // Create a database and associate it with app: dokku mongodb:create <app> <database>
 dokku mongodb:create projects projectsdb
 
@@ -45,7 +42,7 @@ dokku mongodb:link projects projectsdb
 // Delete database app - dokku mongodb:delete <app> <database> 
 dokku mongodb:delete projects projectsdb 
 
-// Config - retrive environment variables
+// Config - retrive environment variables for connecting your database
 dokku config projects
 ```
 
@@ -53,11 +50,15 @@ dokku config projects
 // MongoDB Query stuff: 
 $ dokku mongodb:console
 $ db.projects.find().pretty()
+```
 
+```
 // Start app locally
 cd ~/Sites/projects
 DEBUG=myapp npm start
+```
 
+```
 // References
 	- setup dokku, http://markrabey.com/2015/02/08/express-site-with-digital-ocean-and-dokku/ 
 	- mongodb setup, https://www.youtube.com/watch?v=xpD9AOcWlgc
