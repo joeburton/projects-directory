@@ -13,7 +13,7 @@ var sess;
 // Connection URL 
 if (production) {
     // production
-    url = 'hidden';
+    url = 'mongodb://CONNECTIONSTRING';
 } else {
     // local dev
     url = 'mongodb://localhost:27017/projectsdb';
